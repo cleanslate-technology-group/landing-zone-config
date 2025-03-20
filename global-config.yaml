@@ -29,7 +29,7 @@ controlTower:
       accessLoggingBucketRetentionDays: 3650
       organizationTrail: true
     security:
-      enableIdentityCenterAccess: true
+      enableIdentityCenterAccess: false
 logging:
   account: LogArchive
   cloudtrail:
