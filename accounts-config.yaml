@@ -26,3 +26,7 @@ workloadAccounts:
     description: The Network account
     email: randy.gregory+infra@cleanslatetg.com
     organizationalUnit: Infrastructure
+  - name: Workloads
+    description: The Workload account
+    email: randy.gregory+workloads@cleanslatetg.com
+    organizationalUnit: Workloads
