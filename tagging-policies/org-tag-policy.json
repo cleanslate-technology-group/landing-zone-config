@@ -10,6 +10,29 @@
                     "200"
                 ]
             }
+        },
+        "environment": {
+            "tag_key": {
+                "@@assign": "Environment"
+            },
+            "tag_value": {
+                "@@assign": [
+                    "dev",
+                    "test",
+                    "prod",
+                    "platform"
+                ]
+            }
+        },
+        "owner": {
+            "tag_key": {
+                "@@assign": "map-migrated"
+            },
+            "tag_value": {
+                "@@assign": [
+                    "mig123abc"
+                ]
+            }
         }
     }
 }
