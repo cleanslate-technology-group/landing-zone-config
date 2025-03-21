@@ -30,3 +30,7 @@ workloadAccounts:
     description: The Workload account
     email: randy.gregory+workloads@cleanslatetg.com
     organizationalUnit: Workloads
+  - name: Sandbox
+    description: Generic Sandbox for testing
+    email: chris.bryant+bps-sbx@cleanslatetg.com
+    organizationalUnit: Workloads
