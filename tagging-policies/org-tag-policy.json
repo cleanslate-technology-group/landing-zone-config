@@ -1,6 +1,6 @@
 {
     "tags": {
-        "costcenter": {
+        "CostCenter": {
             "tag_key": {
                 "@@assign": "CostCenter"
             },
@@ -11,26 +11,22 @@
                 ]
             }
         },
-        "environment": {
-            "tag_key": {
-                "@@assign": "Environment"
-            },
+        "map-migrated": {
             "tag_value": {
                 "@@assign": [
-                    "dev",
-                    "test",
-                    "prod",
-                    "platform"
+                    "mig1234abc"
                 ]
-            }
-        },
-        "owner": {
-            "tag_key": {
-                "@@assign": "map-migrated"
             },
-            "tag_value": {
+            "enforced_for": {
                 "@@assign": [
-                    "mig123abc"
+                    "ec2:image",
+                    "ec2:instance",
+                    "ec2:snapshot",
+                    "ec2:volume",
+                    "elasticfilesystem:*",
+                    "apigateway:restapis",
+                    "elasticbeanstalk:application",
+                    "workspaces:workspace"
                 ]
             }
         }
