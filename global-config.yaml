@@ -7,7 +7,7 @@ defaultEventBus:
   deploymentTargets:
     organizationalUnits:
       - Root
-cloudwatchLogRetentionInDays: 3652
+cloudwatchLogRetentionInDays: 3288
 terminationProtection: true
 cdkOptions:
   centralizeBuckets: true
