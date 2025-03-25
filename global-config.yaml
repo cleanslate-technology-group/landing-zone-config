@@ -34,7 +34,7 @@ logging:
   account: LogArchive
   cloudtrail:
     enable: true
-    organizationTrail: false
+    organizationTrail: true
     organizationTrailSettings:
       multiRegionTrail: true
       globalServiceEvents: true
@@ -133,7 +133,7 @@ reports:
     - deploymentTargets:
         accounts:
           - Management
-      name: accel-budget
+      name: poc-budget-alert-01
       timeUnit: MONTHLY
       type: COST
       amount: 2000
